@@ -22,7 +22,7 @@ class HelloController {
     // Endpoint principal (Raíz)
     @GetMapping("/")
     public String hello() {
-        return "<h1>Servidor de Cambatec</h1><p>Estado: <b>CI/CD Funcionando perfectamente</b></p>";
+        return "<h1>Servidor de jhon</h1><p>Estado: <b>CI/CD Funcionando perfectamente</b></p>";
     }
 
     // NUEVO ENDPOINT: Tu IP:8085/api/info
